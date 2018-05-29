@@ -1,4 +1,10 @@
-import { AppRegistry } from 'react-native';
-import App from './App';
+import { AppRegistry } from 'react-native'
+import { Navigation } from 'react-native-navigation'
+import registerScreens from './src/config/router'
 
-AppRegistry.registerComponent('radioTaxy', () => App);
+registerScreens()
+Navigation.startSingleScreenApp({
+	screen: {
+		screen: 'login',
+	},
+})
