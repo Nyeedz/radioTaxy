@@ -7,6 +7,8 @@
     "test": "jest"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "native-base": "^2.4.5",
     "react": "16.3.1",
     "react-native": "0.55.4",
     "react-native-navigation": "^1.1.464"
@@ -15,7 +17,8 @@
     "babel-jest": "23.0.1",
     "babel-preset-react-native": "4.0.0",
     "jest": "23.0.1",
-    "react-test-renderer": "16.3.1"
+    "react-test-renderer": "16.3.1",
+    "reactotron-react-native": "^1.14.0"
   },
   "jest": {
     "preset": "react-native"
